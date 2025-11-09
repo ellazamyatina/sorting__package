@@ -14,7 +14,3 @@ extend-select = [
 ]
 [tool.ruff]
 extend-exclude = ["Tests"]
-[tool.ruff.lint]
-extend-ignore = ["N999"]
-[tool.ruff.lint.pylint]
-allow-paths = ["Tests"]
